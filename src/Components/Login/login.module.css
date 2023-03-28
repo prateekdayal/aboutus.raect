@@ -1,0 +1,59 @@
+.LoginContainer{
+  background-color: rgb(139, 0, 46);
+  height: 89.5vh;
+}
+.formContainer{
+  width: 25%;
+  background-color: white;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  padding-bottom: 2rem;
+}
+.formContainer > img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4rem;
+}
+
+.form{
+  margin-top: 2rem;
+}
+.form> div{
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 0 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+
+}
+input{
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+.loginBtn{
+  float: right;
+}
+.loginBtn > button{
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  color: #fff;
+  float: left;
+}

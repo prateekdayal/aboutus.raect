@@ -1,0 +1,76 @@
+.aboutContaier{
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 18px 3px rgb(233, 233, 233);
+  border-radius: 20px;
+
+}
+
+.rightSide{
+  width: 75%;
+}
+
+.aboutTitle{
+  text-align: center;
+  border-right: 1px solid gray;
+}
+.description{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: -13px;
+}
+.profileImage{
+  border-radius: 15px;
+  object-fit: cover;
+  height: 300px;
+  width: 250px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+.pTag{
+  padding: 0 20px;
+  margin-top: -15px;
+  color: #87CEEB;
+  font-weight: bold;
+}
+.smallCart{
+  width: 26%;
+  padding: 0 20px 20px;
+  background-color:  #87CEEB;
+  border-radius: 10px;
+}
+.smallCart > p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.marginTop{
+  margin-top: -10px;
+}
+
+.insideRightSide{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin-top: -15px;
+  resize: none;
+  background-color: rgb(20, 20, );
+  color: #fff;
+}
